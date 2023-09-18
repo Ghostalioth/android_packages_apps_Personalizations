@@ -1674,4 +1674,8 @@
     <!-- Enable all props -->
     <string name="all_props_title">Enable spoof options</string>
     <string name="all_props_summary">Enables all the spoof options within the PixelProps</string>
+    
+    <!-- Notificatioens style -->
+    <string name="theme_customization_notifications_title">Notifications style</string>
+    <string name="theme_customization_notifications_summary">Set custom notifications style</string>
 </resources>

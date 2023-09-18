@@ -19,10 +19,16 @@
     xmlns:lineage="http://schemas.android.com/apk/res-auto"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/notif_settings_title">
-
+    
     <com.android.settingslib.widget.IllustrationPreference
         android:key="notification_illustration"
-        lineage:lottie_rawRes="@raw/notification_illustration" />
+	lineage:lottie_rawRes="@raw/notification_illustration" />
+
+    <!-- Notifications style -->
+    <com.android.settings.preferences.ui.AdaptivePreference    
+	android:key="android.theme.customization.nf_style"
+        android:title="@string/theme_customization_notifications_title"                                 android:summary="@string/theme_customization_notifications_summary"
+        android:fragment="com.crdroid.settings.fragments.ui.NotificationStyles" />
 
     <com.crdroid.settings.preferences.SystemSettingSwitchPreference
         android:key="notification_sound_vib_screen_on"
