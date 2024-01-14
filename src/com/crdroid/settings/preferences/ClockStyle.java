@@ -16,6 +16,7 @@ public class ClockStyle extends RelativeLayout {
     private static final int[] CLOCK_VIEW_IDS = {
             R.id.keyguard_clock_style_default,
             R.id.keyguard_clock_style_oos,
+            R.id.keyguard_clock_style_oos_2,
             R.id.keyguard_clock_style_ios,
             R.id.keyguard_clock_style_cos,
             R.id.keyguard_clock_style_custom,

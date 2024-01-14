@@ -1001,7 +1001,8 @@
     
     <string-array name="clock_style_entries">
         <item>Default</item>
-        <item>Clock OOS</item>
+	<item>Clock OOS</item>
+	<item>Clock OOS 2</item>
         <item>Clock IOS</item>
         <item>Clock COS</item>
         <item>Clock Custom</item>
@@ -1042,7 +1043,8 @@
         <item>16</item>
         <item>17</item>
         <item>18</item>
-        <item>19</item>
+	<item>19</item>
+	<item>20</item>
     </string-array>
 
     <string-array name="widget_entries">

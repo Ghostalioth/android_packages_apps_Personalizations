@@ -24,6 +24,13 @@
             <include layout="@layout/keyguard_clock_oos" />
         </LinearLayout>
         <LinearLayout
+            android:gravity="center_vertical"
+            android:id="@+id/keyguard_clock_style_oos_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/keyguard_clock_oos_2"/>
+        </LinearLayout>
+        <LinearLayout
             android:gravity="center"
             android:id="@+id/keyguard_clock_style_ios"
             android:layout_width="match_parent"
