@@ -65,4 +65,6 @@
         <attr name="position" format="string" />
         <attr name="isLineageSettings" format="boolean" />
     </declare-styleable>
+
+    <attr name="cardBackground" format="reference|color" />
 </resources>

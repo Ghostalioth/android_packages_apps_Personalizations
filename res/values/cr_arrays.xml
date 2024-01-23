@@ -1004,7 +1004,18 @@
 	<item>Clock OOS</item>
 	<item>Clock OOS 2</item>
         <item>Clock IOS</item>
-        <item>Clock COS</item>
+	<item>Clock COS</item>
+	<item>Clock Outline</item>
+        <item>Clock Ovalium</item>
+        <item>Clock Rectangle</item>
+        <item>Clock Wallet</item>
+        <item>Clock Clavicula</item>
+        <item>Clock Kln</item>
+        <item>Clock Miring</item>
+        <item>Clock Scapula</item>
+        <item>Clock Sternum</item>
+        <item>Clock Circle</item>
+        <item>Clock List</item>
         <item>Clock Custom</item>
         <item>Clock Custom 1</item>
         <item>Clock Custom 2</item>
@@ -1045,6 +1056,17 @@
         <item>18</item>
 	<item>19</item>
 	<item>20</item>
+	<item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
     </string-array>
 
     <string-array name="widget_entries">

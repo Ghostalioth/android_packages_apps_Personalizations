@@ -45,6 +45,83 @@
             <include layout="@layout/keyguard_clock_cos" />
         </LinearLayout>
         <LinearLayout
+            android:gravity="center_vertical"
+            android:id="@+id/keyguard_anci_clock_outline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/keyguard_anci_clock_outline" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:id="@+id/keyguard_anci_clock_ovalium"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/keyguard_anci_clock_ovalium" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:id="@+id/keyguard_anci_clock_rectangle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/keyguard_anci_clock_rectangle" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:id="@+id/keyguard_anci_clock_wallet"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/keyguard_anci_clock_wallet" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:id="@+id/keyguard_anci_clockdate_clavicula"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/keyguard_anci_clockdate_clavicula" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:id="@+id/keyguard_anci_clockdate_kln"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/keyguard_anci_clockdate_kln" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:id="@+id/keyguard_anci_clockdate_miring"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/keyguard_anci_clockdate_miring" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:id="@+id/keyguard_anci_clockdate_scapula"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/keyguard_anci_clockdate_scapula" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:id="@+id/keyguard_anci_clockdate_sternum"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/keyguard_anci_clockdate_sternum" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:id="@+id/keyguard_sparkCircle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/keyguard_sparkCircle" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:id="@+id/keyguard_sparkList"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/keyguard_sparkList" />
+        </LinearLayout>
+        <LinearLayout
             android:gravity="center"
             android:id="@+id/keyguard_clock_style_custom"
             android:layout_width="match_parent"
