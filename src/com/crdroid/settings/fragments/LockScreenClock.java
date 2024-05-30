@@ -75,7 +75,6 @@ public class LockScreenClock extends SettingsPreferenceFragment implements Prefe
     private List<Preference> mWidgetPreferences;
 
     private Preference mClockStyle;
-    private Preference mClockFontPref;
     private Preference mDeviceInfoWidgetPref;
 
     @Override
@@ -96,11 +95,8 @@ public class LockScreenClock extends SettingsPreferenceFragment implements Prefe
 
         final boolean mClockStyleEnabled = Settings.System.getIntForUser(getActivity().getContentResolver(), "clock_style", 0, UserHandle.USER_CURRENT) != 0;
 
-        mClockFontPref = (Preference) findPreference("android.theme.customization.lockscreen_clock_font");
-
         mClockStyle = (Preference) findPreference("clock_style");
         mClockStyle.setOnPreferenceChangeListener(this);
-        mClockFontPref.setVisible(!mClockStyleEnabled);
 
         final boolean isLsWidgetsEnabled = Settings.System.getIntForUser(getActivity().getContentResolver(), "lockscreen_widgets_enabled", 0, UserHandle.USER_CURRENT) != 0;
 
@@ -168,7 +164,6 @@ public class LockScreenClock extends SettingsPreferenceFragment implements Prefe
         } else if (preference == mClockStyle) {
             int clockStyleValue = Integer.parseInt((String) newValue);
             boolean clockStyleEnabled = clockStyleValue != 0;
-            mClockFontPref.setVisible(!clockStyleEnabled);
             return true;
         }
         return false;
